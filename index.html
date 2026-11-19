@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Video Studio</title>
+<meta name="description" content="AI Video Studio: kişisel, yerel çalışan video üretim ve YouTube yayınlama aracı / a personal, locally running video production and YouTube publishing tool.">
+<style>
+  :root { --bg:#111214; --panel:#1a1b1f; --line:#2a2c33; --text:#e8e8ea; --muted:#9a9aa2; --accent:#ff7a2f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:56px 24px 72px; }
+  .brand { display:flex; align-items:center; gap:12px; margin-bottom:28px; }
+  .logo { width:40px; height:40px; border-radius:10px; background:var(--accent); display:grid; place-items:center; }
+  .logo svg { width:20px; height:20px; fill:#fff; }
+  h1 { font-size:30px; margin:0; }
+  h2 { font-size:20px; margin:36px 0 8px; }
+  p, li { color:#d4d4d8; }
+  .muted { color:var(--muted); font-size:14px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:20px 0; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:48px 0 24px; }
+  footer { color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div><h1>AI Video Studio</h1></div>
+
+  <section lang="tr">
+    <p><b>AI Video Studio</b>, YouTube kanalı <b>TRMBK</b>'nin sahibi tarafından kendi bilgisayarında kullanılan kişisel bir masaüstü uygulamasıdır. Yapay zekâ modelleriyle yerel olarak kısa videolar (ör. renovasyon time-lapse videoları) üretir ve sahibinin onayıyla bu videoları sahibinin kendi YouTube kanalına yükler.</p>
+    <div class="card">
+      <b>Uygulamanın Google / YouTube ile yaptıkları</b>
+      <ul>
+        <li>Kullanıcının seçtiği ve açıkça onayladığı videoları kendi kanalına yükler (varsayılan olarak "gizli").</li>
+        <li>Kanal adı, kimliği ve profil görselini gösterir.</li>
+        <li>Kanalın kendi YouTube Analytics verilerini okuyarak performans raporu ve iyileştirme önerileri hazırlar.</li>
+      </ul>
+      Uygulama video silmez, kanal ayarlarını değiştirmez ve veri satmaz veya paylaşmaz. Tüm veriler kullanıcının bilgisayarında kalır.
+    </div>
+    <p>Ayrıntılar: <a href="privacy.html">Gizlilik Politikası</a></p>
+  </section>
+
+  <hr>
+
+  <section lang="en">
+    <h2>English</h2>
+    <p><b>AI Video Studio</b> is a personal desktop application used by the owner of the YouTube channel <b>TRMBK</b> on their own computer. It produces short videos locally with AI models (e.g. renovation time-lapse videos) and, only with the owner's explicit approval, uploads them to the owner's own YouTube channel.</p>
+    <div class="card">
+      <b>What the app does with Google / YouTube</b>
+      <ul>
+        <li>Uploads videos the user selects and explicitly approves to their own channel (private by default).</li>
+        <li>Shows the channel name, ID and profile image.</li>
+        <li>Reads the channel's own YouTube Analytics data to build performance reports and improvement suggestions.</li>
+      </ul>
+      The app does not delete videos, does not change channel settings, and does not sell or share data. All data stays on the user's computer.
+    </div>
+    <p>Details: <a href="privacy.html">Privacy Policy</a></p>
+  </section>
+
+  <hr>
+  <footer>AI Video Studio · <a href="privacy.html">Gizlilik Politikası / Privacy Policy</a> · <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a> · <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a></footer>
+</main>
+</body>
+</html>
